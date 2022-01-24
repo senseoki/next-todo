@@ -1,9 +1,8 @@
 import { NextPage } from "next";
-import styled from "styled-components";
 import TodoList from "../components/TodoList";
 import { TodoType } from "../types/todo";
 import { getTodosAPI } from "../lib/api/todo";
-import { GetServerSideProps } from 'next'
+import { GetServerSideProps } from "next"
 
 interface IProps {
   todos: TodoType[];
